@@ -1,0 +1,11 @@
+[submodule "Games/findTheFlea"]
+  path = Games/findTheFlea
+  url = https://github.com/verocenteno/findaflea.git
+
+[submodule "Games/memorygame"]
+  path = Games/memorygame
+  url = https://github.com/verocenteno/memorygame.git
+
+[submodule "Games/tresenraya"]
+  path = Games/tresenraya
+  url = https://github.com/verocenteno/tresenraya.git
