@@ -10,8 +10,12 @@ body {
 }
 
 #app {
-  width: 100vw;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 99vw;
+  height: 99vh;
 }
 
 footer {
@@ -33,11 +37,12 @@ footer > p {
   font-size: 18px;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 540px) {
   header > h1 {
     width: 290px;
     font-size: 70px;
   }
+
   main {
     display: flex;
     flex-direction: column;
@@ -68,5 +73,15 @@ footer > p {
   .linkedin {
     width: 35px;
     align-self: center;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  footer {
+    bottom: -140px;
+  }
+  footer > p {
+    color: black;
+    font-weight: 600;
   }
 }
