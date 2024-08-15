@@ -56,11 +56,13 @@ footer > p {
     width: 95px;
   }
   footer {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 280px;
-    left: 15%;
+    width: 300px;
+    left: 15px;
+    padding: 20px;
   }
 
   footer > p {
@@ -77,9 +79,6 @@ footer > p {
 }
 
 @media only screen and (max-width: 380px) {
-  footer {
-    bottom: -140px;
-  }
   footer > p {
     color: black;
     font-weight: 600;
