@@ -3,7 +3,7 @@ img {
   cursor: pointer;
 }
 main {
-  width: 100%;
+  width: 99vw;
   height: 600px;
   display: flex;
   justify-content: space-around;
@@ -23,7 +23,7 @@ main {
   align-items: center;
 }
 
-@media only screen and (min-width: 550px) and (max-width: 1100px) {
+@media only screen and (min-width: 551px) and (max-width: 1100px) {
   main {
     display: flex;
     justify-content: space-around;
