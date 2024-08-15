@@ -10,7 +10,7 @@ export const printFunctions = () => {
   const title1 = document.createElement('p')
   title1.textContent = 'Find The Flea'
   const link1 = document.createElement('a')
-  link1.href = 'https://findaflea.netlify.app/'
+  link1.href = 'https://findthefleavc.netlify.app/'
 
   const divImg2 = document.createElement('div')
   const img2 = document.createElement('img')
